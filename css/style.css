@@ -1322,4 +1322,216 @@ header {
   color: #BAA78F;
   cursor: pointer;
 }
+
+@media (max-width: 1200px) {
+  .conteiner {
+    width: 1100px;
+  }
+  .header-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+    margin-left: 0;
+  }
+  .header-nav-menu-list-2 {
+    margin-left: auto;
+  }
+  .services-web,
+  .services-development,
+  .services-customization,
+  .services-marketing {
+    width: 21.176%;
+  }
+  .waxom-is-realization-img {
+    max-width: 100%;
+    margin-left: 0;
+  }
+  .services-web-title,
+  .services-development-title,
+  .services-customization-title,
+  .services-marketing-title {
+    margin-left: 0;
+  }
+  .services-web-text,
+  .services-development-text,
+  .services-customization-text,
+  .services-marketing-text {
+    margin-left: 0;
+    width: 100%;
+  }
+  .purchase-now-a {
+    margin-left: 933px;
+  }
+}
+
+@media (max-width: 992px) {
+  .conteiner {
+    width: 100%;
+  }
+  .services-wrp {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .header-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+    margin-left: 0;
+  }
+  .header-nav-logo {
+    margin-left: 15px;
+  }
+  .header-nav-menu-list, .header-nav-menu-list-2 {
+    display: none;
+  }
+  .slider-wrp {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .slider-wrp-btn-left,
+  .slider-wrp-btn-right {
+    left: 0;
+  }
+  .services-web,
+  .services-development,
+  .services-customization,
+  .services-marketing {
+    width: 50%;
+  }
+  .services-web-title:first-child::before,
+  .services-development-title:first-child::before,
+  .services-customization-title:first-child::before,
+  .services-marketing-title:first-child::before {
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  .services-web-text:last-child::after,
+  .services-development-text:last-child::after,
+  .services-customization-text:last-child::after,
+  .services-marketing-text:last-child::after {
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  .services-web-text,
+  .services-development-text,
+  .services-customization-text,
+  .services-marketing-text {
+    margin-left: 0;
+    max-width: 100%;
+  }
+  .waxom-is-realization-title {
+    width: 496px;
+  }
+  .waxom-is-realization-text {
+    width: 100%;
+  }
+  .waxom-is-realization-img {
+    max-width: 100%;
+    margin-left: 0;
+  }
+  .purchase-now {
+    padding-bottom: 45px;
+  }
+  .purchase-now-title {
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 0;
+    text-align: center;
+  }
+  .purchase-now-text {
+    width: 98%;
+    margin-left: 0;
+    text-align: center;
+  }
+  .purchase-now-a {
+    float: none;
+    margin-top: 0;
+    margin-left: 0;
+    margin: 0 auto;
+    display: table;
+  }
+}
+
+@media (max-width: 576px) {
+  .conteiner {
+    width: 100%;
+  }
+  .services-wrp {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 100%;
+  }
+  header {
+    height: 144px;
+  }
+  .slider {
+    display: none;
+  }
+  .services-web,
+  .services-development,
+  .services-customization,
+  .services-marketing {
+    width: 100%;
+  }
+  .services-web-title:first-child::before,
+  .services-development-title:first-child::before,
+  .services-customization-title:first-child::before,
+  .services-marketing-title:first-child::before {
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  .services-web-text,
+  .services-development-text,
+  .services-customization-text,
+  .services-marketing-text {
+    max-width: 100%;
+  }
+  .services-web-text:last-child::after,
+  .services-development-text:last-child::after,
+  .services-customization-text:last-child::after,
+  .services-marketing-text:last-child::after {
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  .waxom-is-realization-title {
+    width: 75%;
+    padding-top: 34px;
+  }
+  .waxom-is-realization-text {
+    width: 75%;
+    padding-bottom: 30px;
+    margin-bottom: 0;
+  }
+  .waxom-is-realization-img {
+    display: none;
+  }
+  .purchase-now {
+    padding-bottom: 45px;
+  }
+  .purchase-now-title {
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 0;
+    text-align: center;
+  }
+  .purchase-now-text {
+    width: 98%;
+    margin-left: 0;
+    text-align: center;
+  }
+  .purchase-now-a {
+    float: none;
+    margin-top: 0;
+    margin-left: 0;
+    margin: 0 auto;
+    display: table;
+  }
+}
 /*# sourceMappingURL=style.css.map */
